@@ -27,7 +27,7 @@ def ProcessCommand(c):
 
     if "headlines" in c.lower() or "headline" in c.lower():
         # Initialize with your API key
-        newsapi = NewsApiClient(api_key='cf387776af3a42cb9846c0ed665b926b') #use your own api key
+        newsapi = NewsApiClient(api_key="") #use your own api key
 
         # Fetch top headlines globally
         top_headlines = newsapi.get_top_headlines(language='en')
@@ -111,4 +111,5 @@ if __name__ == "__main__":
             print(f"Could not request results; {e}")
         except Exception as e:
             print("Error; {0}".format(e))
+
             time.sleep(1)
