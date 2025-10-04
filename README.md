@@ -69,7 +69,15 @@ If you get an API key error, ensure your key is copied correctly.
 - Integrate additional APIs or services for enhanced functionality.
 - Adjust voice settings such as rate, volume, and voice type.
 
+## License
+
+This project is for learning purposes. Feel free to use and modify it with proper credit.
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit pull requests with improvements or new features.
+
+## Author
+Kartik Sharma
+
 
