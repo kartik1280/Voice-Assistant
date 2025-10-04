@@ -26,8 +26,6 @@ Speak commands clearly into the microphone. The assistant will respond via voice
 
 1. Install All Dependencies
 Make sure you have Python installed. Then, install these required libraries if you haven't done so:
-
-bash
 pip install speechrecognition pyttsx3 pyaudio wikipedia newsapi-python
 (If using your own music library dictionary, keep music_library.py in the same folder.)
 
